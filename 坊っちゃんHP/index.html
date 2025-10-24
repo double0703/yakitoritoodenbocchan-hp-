@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【公式】焼き鳥 おでん 坊ちゃん | 安心・均一価格の居酒屋</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 開発用の代替フォント設定は維持 */
+        .font-goshiki { font-family: "AH白洲毛筆太楷書体W3", 'HiraMinProN-W6', serif; } 
+        .font-koryu { font-family: "KSO黒龍爽", 'Arial Black', sans-serif; } 
+        body { font-family: "明朝体", 'Hiragino Mincho ProN', serif; } 
+        
+        /* ★★★ 最終レイアウト強制修正: HEAD内CSSをクリーンアップ ★★★ */
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        /* Flexboxの基本設定をインラインで強制適用 (レイアウト安定化) */
+        .features, .value-boxes, .review-grid, .menu-items, .sns-content-box, .affiliated-stores-vertical {
+            display: flex !important;
+            justify-content: center !important;
+            flex-wrap: wrap !important; 
+        }
+        .feature-item, .value-box, .menu-item, .review-item, .sns-item, .store-item-vertical {
+            flex: 1 !important;
+            min-width: 250px !important; 
+            max-width: 300px !important; 
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo font-goshiki">焼き鳥 おでん 坊ちゃん</h1>
+            <nav class="header-nav">
+                <a href="#menu">メニュー</a>
+                <a href="#stores">系列店</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-visual">
+        <div class="catch-copy">
+            <p class="sub-catch">安心感と活気あふれる大衆居酒屋</p>
+            <h2 class="main-catch font-goshiki">焼き鳥1本99円、おでん全品199円！<br>チェーン店好きも納得の均一価格で楽しむ「坊ちゃん」</h2>
+            <p class="price-info font-koryu">平均単価：3,000円前後</p>
+        </div>
+    </section>
+
+    <section id="concept" class="section concept fade-in"> 
+        <div class="container">
+            <h2 class="section-title font-goshiki">「坊ちゃん」の３つの魅力</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3 class="font-goshiki">魅力 その１：驚きの均一価格！</h3>
+                    <div class="feature-image-placeholder"><img src="concept-1.jpg" alt="均一価格のメニュー表" class="item-image"></div>
+                    <p class="font-koryu price-highlight">焼き鳥99円！ おでん199円！ ドリンク199円！</p>
+                    <p>30代チェーン店好きのあなたも納得の、明朗会計と均一価格。お財布を気にせず楽しめます。</p>
+                </div>
+                <div class="feature-item">
+                    <h3 class="font-goshiki">魅力 その２：コスパ最強のサービス</h3>
+                    <div class="feature-image-placeholder"><img src="concept-2.jpg" alt="枝豆と飲み放題のドリンク" class="item-image"></div>
+                    <p>お通し代（330円税込）で**枝豆食べ放題**！さらに**飲み放題888円**もご用意！</p>
+                    <p>一杯だけサクッと、ガッツリ飲むときも、「坊ちゃん」はあなたの味方です。</p>
+                </div>
+                <div class="feature-item">
+                    <h3 class="font-goshiki">魅力 その３：安心の定番メニュー</h3>
+                    <div class="feature-image-placeholder"><img src="concept-3.jpg" alt="焼き鳥とおでんのセット" class="item-image"></div>
+                    <p>定番中の定番、こだわりの焼き鳥とおでんがいつでも楽しめます。均一価格でも一切妥協しない美味しさ。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title font-goshiki">メイン商材のご紹介</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3 class="font-goshiki">こだわりの焼き鳥</h3>
+                    <div class="menu-image-placeholder"><img src="menu-yakitori.jpg" alt="一本99円の焼き鳥" class="item-image"></div>
+                    <p>全種99円（税込108円）</p>
+                    <p>鶏肉の旨みを最大限に引き出す絶妙な焼き加減。定番のもも串から希少部位まで、均一価格で提供！</p>
+                </div>
+                <div class="menu-item">
+                    <h3 class="font-goshiki">おふくろの味、おでん</h3>
+                    <div class="menu-image-placeholder"><img src="menu-oden.jpg" alt="出汁が染みたおでん" class="item-image"></div>
+                    <p>全品199円（税込218円）</p>
+                    <p>出汁がしみ込んだ大根や玉子、ちくわなど。心も体も温まる優しい味わいです。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-carousel" class="section menu-carousel-section fade-in">
+        <div class="container">
+            <h2 class="section-title font-goshiki">メニューのご紹介</h2>
+            
+            <div class="carousel-container">
+                
+                <button class="carousel-nav prev-btn">❮</button>
+                <button class="carousel-nav next-btn">❯</button>
+
+                <div class="carousel-window">
+                    <ul class="carousel-track">
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-1.jpg" alt="メニュー画像1" class="carousel-item-img"></div> <p class="item-name">自慢の鶏もも串</p> <p class="item-price font-koryu">199円<span class="tax-small">(税込218円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-2.jpg" alt="メニュー画像2" class="carousel-item-img"></div> <p class="item-name">とろける牛すじ</p> <p class="item-price font-koryu">299円<span class="tax-small">(税込328円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-3.jpg" alt="メニュー画像3" class="carousel-item-img"></div> <p class="item-name">玉子と出汁の幸福</p> <p class="item-price font-koryu">199円<span class="tax-small">(税込218円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-4.jpg" alt="メニュー画像4" class="carousel-item-img"></div> <p class="item-name">定番！鶏皮串</p> <p class="item-price font-koryu">99円<span class="tax-small">(税込108円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-5.jpg" alt="メニュー画像5" class="carousel-item-img"></div> <p class="item-name">熱々ちくわぶ</p> <p class="item-price font-koryu">199円<span class="tax-small">(税込218円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-6.jpg" alt="メニュー画像6" class="carousel-item-img"></div> <p class="item-name">つくね串（たれ）</p> <p class="item-price font-koryu">99円<span class="tax-small">(税込108円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-7.jpg" alt="メニュー画像7" class="carousel-item-img"></div> <p class="item-name">もち巾着</p> <p class="item-price font-koryu">199円<span class="tax-small">(税込218円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-8.jpg" alt="メニュー画像8" class="carousel-item-img"></div> <p class="item-name">砂肝串（塩）</p> <p class="item-price font-koryu">99円<span class="tax-small">(税込108円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-9.jpg" alt="メニュー画像9" class="carousel-item-img"></div> <p class="item-name">厚揚げ</p> <p class="item-price font-koryu">199円<span class="tax-small">(税込218円)</span></p> </li>
+                        <li class="carousel-item"> <div class="item-img-box"><img src="item-10.jpg" alt="メニュー画像10" class="carousel-item-img"></div> <p class="item-name">レバー串</p> <p class="item-price font-koryu">99円<span class="tax-small">(税込108円)</span></p> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="value" class="section value-prop fade-in">
+        <div class="container">
+            <h2 class="section-title font-goshiki">安心！迷わない！「坊ちゃん」が選ばれる理由</h2>
+            <p class="lead-text">「居酒屋チェーン店」の安心感と「個人店の活気」をイイトコどり！30代のあなたに心地よいひと時を提供します。</p>
+
+            <div class="value-boxes">
+                <div class="value-box">
+                    <h3 class="font-koryu">1. 明朗会計で安心！</h3>
+                    <div class="value-image-placeholder"><img src="value-1.jpg" alt="レジと明朗会計のイメージ" class="item-image"></div>
+                    <p class="price-big">ドリンク <span class="price-unit">全品</span> 199円<span class="price-small">（税込218円）</span></p>
+                    <p>何杯飲んでも気にしない！価格破壊のドリンク均一。お会計で焦る心配はありません。</p>
+                </div>
+                <div class="value-box">
+                    <h3 class="font-koryu">2. 迷わない！選びやすい！</h3>
+                    <div class="value-image-placeholder"><img src="value-2.jpg" alt="枝豆と飲み放題のドリンク" class="item-image"></div>
+                    <p class="price-big">お通し代 <span class="price-unit">330円</span>で</p>
+                    <p class="highlight-text">枝豆食べ放題！</p>
+                    <p>お通しが豪華なサービス！メニュー選びに迷う時間も楽しい！</p>
+                </div>
+                <div class="value-box">
+                    <h3 class="font-koryu">3. さく飲みもガッツリも！</h3>
+                    <div class="value-image-placeholder"><img src="value-3.jpg" alt="楽しそうな客席の様子" class="item-image"></div>
+                    <p class="price-big">平均単価 <span class="price-unit">3,000円</span>以内</p>
+                    <p>サクッと**2件目利用**もOK（2,000円〜）！もちろん、**女性も2,500円〜**で大満足の居酒屋です。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="review" class="section review bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title font-goshiki">利用シーンとお客様の声</h2>
+            <div class="review-grid">
+                <div class="review-item">
+                    <p class="review-tag">#同僚と #サク飲み</p>
+                    <p class="review-body">「均一価格だから、新人にも『好きなだけ飲んでいいぞ！』と言えるのが嬉しい。気にせず飲めて、懐にも優しい居酒屋です。」<span class="user">（30代 男性 会社員）</span></p>
+                </div>
+                <div class="review-item">
+                    <p class="review-tag">#女子会 #コスパ最高</p>
+                    <p class="review-body">「この値段なのに焼き鳥が本格的！枝豆食べ放題で、女子会も盛り上がりました。赤と黒の内装が活気があって良いですね！」<span class="user">（30代 女性 OL）</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sns" class="section sns-section">
+        <div class="container sns-container">
+            <h2 class="section-title sns-title font-goshiki">SNS関連</h2>
+            
+            <div class="sns-content-box">
+                <a href="https://www.instagram.com/bocchan_yakitori_official/" target="_blank" class="sns-item">
+                    <div class="sns-icon insta-icon"></div>
+                    <div class="sns-text-content">
+                        <p class="sns-catch">お得な情報配信中！<br>見てね〜</p>
+                        <p class="sns-account">@bocchan_yakitori_official</p>
+                    </div>
+                </a>
+
+                <a href="https://www.tiktok.com/@bocchan_yakitori_official" target="_blank" class="sns-item">
+                    <div class="sns-icon tiktok-icon"></div>
+                    <div class="sns-text-content">
+                        <p class="sns-catch">均一価格の裏側公開中！<br>見てね〜</p>
+                        <p class="sns-account">@bocchan_yakitori_official</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="stores" class="section affiliated-stores-section fade-in">
+        <div class="container">
+            <h2 class="section-title font-goshiki">系列店のご紹介</h2>
+            
+            <div class="affiliated-stores-vertical">
+                
+                <div class="store-item-vertical">
+                    <div class="store-details">
+                        <h3 class="font-goshiki">焼き鳥 おでん 坊っちゃん 堺東店</h3>
+                        <p class="store-address">住所: 〒590-0076 大阪府堺市堺区北瓦町２丁目１−２６ 利休ビル 1-2階</p>
+                    </div>
+                    <p class="store-tel">電話番号: 072-268-5586</p>
+                    <a href="https://bocchansakaihigashi.owst.jp" target="_blank" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+                
+                <div class="store-item-vertical">
+                    <div class="store-details">
+                        <h3 class="font-goshiki">焼き鳥 おでん 坊っちゃん 天満店</h3>
+                        <p class="store-address">住所: 〒530-0033 大阪府大阪市北区池田町８−５</p>
+                    </div>
+                    <p class="store-tel">電話番号: 080-4316-1421</p>
+                    <a href="https://bocchantenma.owst.jp" target="_blank" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+                
+                <div class="store-item-vertical">
+                    <div class="store-details">
+                        <h3 class="font-goshiki">焼き鳥 おでん 坊っちゃん 梅田茶屋町店</h3>
+                        <p class="store-address">住所: 〒530-0012 大阪府大阪市北区芝田１丁目５−１４</p>
+                    </div>
+                    <p class="store-tel">電話番号: 070-5654-9817</p>
+                    <a href="https://bocchantyayamachi.owst.jp" target="_blank" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+            </div>
+            
+            <a href="#stores" class="btn-reserve-large font-goshiki mt-4">お近くの「坊ちゃん」をいますぐ予約！</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright-info">
+                &copy; yakitori oden bocchan All Rights Reserved.
+            </p>
+            <div class="footer-links">
+                <a href="https://double0703.com/" target="_blank">運営会社：株式会社ダブル</a>
+                <span class="separator">|</span>
+                <a href="privacy.html" target="_blank">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script> 
+
+    <a href="#stores" class="fixed-cta-button font-goshiki">
+        <span class="cta-icon"></span>
+    </a>
+
+    <a href="#top" id="page-top" class="font-goshiki">TOP</a>
+</body>
+</html>
+
