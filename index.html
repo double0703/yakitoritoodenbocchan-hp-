@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="焼き鳥1本99円、おでん全品199円！均一価格で安心の大衆居酒屋「坊っちゃん」。堺東店・天満店・梅田茶屋町店で営業中。">
+    <title>【公式】焼き鳥 おでん 坊っちゃん | 安心・均一価格の居酒屋</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- 紙吹雪コンテナ -->
+    <div id="confetti-container"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <!-- 暖簾が開く演出 -->
+        <div class="noren-curtain">
+            <div class="noren-left"></div>
+            <div class="noren-right"></div>
+        </div>
+        
+        <!-- だるま演出 -->
+        <div class="daruma-container">
+            <div class="daruma-body">
+                <!-- だるまの画像 -->
+                <img src="daruma-cta.png" alt="だるま" class="daruma-image">
+            </div>
+            <div class="loader-text-container">
+                <h1 class="loader-text">焼き鳥 おでん 坊っちゃん</h1>
+                <p class="loader-subtext">準備中</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <a href="#value">「坊っちゃん」が選ばれる理由</a>
+            <a href="#stores">店舗一覧</a>
+        </div>
+        
+        <div class="header-logo">
+            <img src="noren-logo.png" alt="焼き鳥 おでん 坊っちゃん" class="noren-image">
+        </div>
+        
+        <div class="header-right">
+            <a href="#menu">メニュー</a>
+            <a href="#sns">お問い合わせ</a>
+        </div>
+    </header>
+
+    <!-- Main Visual -->
+    <section class="main-visual parallax-section">
+        <div class="parallax-bg"></div>
+        <div class="main-visual-content">
+            <h2 class="main-visual-title">TOP</h2>
+            <p class="main-visual-subtitle">写真or動画</p>
+        </div>
+        <div class="wave-divider"></div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="section concept fade-in gradient-bg-1">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                「坊っちゃん」の３つの魅力
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="features">
+                <div class="feature-item card-3d">
+                    <h3>魅力 その１：驚きの均一価格！</h3>
+                    <div class="feature-image-placeholder float-animation">
+                        <img src="concept-1.jpg" alt="均一価格のメニュー表" loading="lazy">
+                    </div>
+                    <p class="price-highlight">焼き鳥99円！ おでん199円！ ドリンク199円！</p>
+                    <p>30代チェーン店好きのあなたも納得の、明朗会計と均一価格。お財布を気にせず楽しめます。</p>
+                </div>
+                <div class="feature-item card-3d">
+                    <h3>魅力 その２：コスパ最強のサービス</h3>
+                    <div class="feature-image-placeholder float-animation" style="animation-delay: 0.2s;">
+                        <img src="concept-2.jpg" alt="枝豆と飲み放題のドリンク" loading="lazy">
+                    </div>
+                    <p>お通し代（330円税込）で<strong>枝豆食べ放題</strong>！さらに<strong>飲み放題888円</strong>もご用意！</p>
+                    <p>一杯だけサクッと、ガッツリ飲むときも、「坊っちゃん」はあなたの味方です。</p>
+                </div>
+                <div class="feature-item card-3d">
+                    <h3>魅力 その３：安心の定番メニュー</h3>
+                    <div class="feature-image-placeholder float-animation" style="animation-delay: 0.4s;">
+                        <img src="concept-3.jpg" alt="焼き鳥とおでんのセット" loading="lazy">
+                    </div>
+                    <p>定番中の定番、こだわりの焼き鳥とおでんがいつでも楽しめます。均一価格でも一切妥協しない美味しさ。</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider wave-flip"></div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu bg-light fade-in gradient-bg-2">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                メニューのご紹介
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="menu-items">
+                <div class="menu-item card-3d">
+                    <h3>こだわりの焼き鳥</h3>
+                    <div class="menu-image-placeholder float-animation">
+                        <img src="menu-yakitori.jpg" alt="一本99円の焼き鳥" loading="lazy">
+                    </div>
+                    <p>全種99円（税込108円）</p>
+                    <p>鶏肉の旨みを最大限に引き出す絶妙な焼き加減。定番のもも串から希少部位まで、均一価格で提供！</p>
+                </div>
+                <div class="menu-item card-3d">
+                    <h3>おふくろの味、おでん</h3>
+                    <div class="menu-image-placeholder float-animation" style="animation-delay: 0.2s;">
+                        <img src="menu-oden.jpg" alt="出汁が染みたおでん" loading="lazy">
+                    </div>
+                    <p>全品199円（税込218円）</p>
+                    <p>出汁がしみ込んだ大根や玉子、ちくわなど。心も体も温まる優しい味わいです。</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider"></div>
+    </section>
+
+    <!-- Menu Carousel Section -->
+    <section id="menu-carousel" class="section menu-carousel-section fade-in gradient-bg-1">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                おすすめメニュー
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="carousel-container">
+                <button class="carousel-nav prev-btn" aria-label="前へ">‹</button>
+                <div class="carousel-window">
+                    <ul class="carousel-track">
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation">
+                                <img src="item-1.jpg" alt="自慢の鶏もも串" loading="lazy">
+                            </div>
+                            <p class="item-name">自慢の鶏もも串</p>
+                            <p class="item-price">199円<span class="tax-small">(税込218円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.1s;">
+                                <img src="item-2.jpg" alt="とろける牛すじ" loading="lazy">
+                            </div>
+                            <p class="item-name">とろける牛すじ</p>
+                            <p class="item-price">299円<span class="tax-small">(税込328円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.2s;">
+                                <img src="item-3.jpg" alt="玉子と出汁の幸福" loading="lazy">
+                            </div>
+                            <p class="item-name">玉子と出汁の幸福</p>
+                            <p class="item-price">199円<span class="tax-small">(税込218円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.3s;">
+                                <img src="item-4.jpg" alt="定番！鶏皮串" loading="lazy">
+                            </div>
+                            <p class="item-name">定番！鶏皮串</p>
+                            <p class="item-price">99円<span class="tax-small">(税込108円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.4s;">
+                                <img src="item-5.jpg" alt="熱々ちくわぶ" loading="lazy">
+                            </div>
+                            <p class="item-name">熱々ちくわぶ</p>
+                            <p class="item-price">199円<span class="tax-small">(税込218円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.5s;">
+                                <img src="item-6.jpg" alt="つくね串（たれ）" loading="lazy">
+                            </div>
+                            <p class="item-name">つくね串（たれ）</p>
+                            <p class="item-price">99円<span class="tax-small">(税込108円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.6s;">
+                                <img src="item-7.jpg" alt="もち巾着" loading="lazy">
+                            </div>
+                            <p class="item-name">もち巾着</p>
+                            <p class="item-price">199円<span class="tax-small">(税込218円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.7s;">
+                                <img src="item-8.jpg" alt="砂肝串（塩）" loading="lazy">
+                            </div>
+                            <p class="item-name">砂肝串（塩）</p>
+                            <p class="item-price">99円<span class="tax-small">(税込108円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.8s;">
+                                <img src="item-9.jpg" alt="厚揚げ" loading="lazy">
+                            </div>
+                            <p class="item-name">厚揚げ</p>
+                            <p class="item-price">199円<span class="tax-small">(税込218円)</span></p>
+                        </li>
+                        <li class="carousel-item card-3d">
+                            <div class="item-img-box float-animation" style="animation-delay: 0.9s;">
+                                <img src="item-10.jpg" alt="レバー串" loading="lazy">
+                            </div>
+                            <p class="item-name">レバー串</p>
+                            <p class="item-price">99円<span class="tax-small">(税込108円)</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-nav next-btn" aria-label="次へ">›</button>
+            </div>
+        </div>
+        <div class="wave-divider wave-flip"></div>
+    </section>
+
+    <!-- Stats Counter Section (数字で見る坊っちゃん) -->
+    <section id="stats" class="section stats-section fade-in gradient-bg-2">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                数字で見る「坊っちゃん」
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="stats-grid">
+                <div class="stat-item card-3d">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number" data-target="100000">0</div>
+                    <p class="stat-label">来店者数突破！</p>
+                </div>
+                <div class="stat-item card-3d">
+                    <div class="stat-icon">🍢</div>
+                    <div class="stat-number" data-target="150">0</div>
+                    <p class="stat-label">メニュー数</p>
+                </div>
+                <div class="stat-item card-3d">
+                    <div class="stat-icon">😊</div>
+                    <div class="stat-number" data-target="98">0</div>
+                    <p class="stat-label">お客様満足度 %</p>
+                </div>
+                <div class="stat-item card-3d">
+                    <div class="stat-icon">🔄</div>
+                    <div class="stat-number" data-target="85">0</div>
+                    <p class="stat-label">リピート率 %</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider"></div>
+    </section>
+
+    <!-- Value Proposition Section -->
+    <section id="value" class="section value-prop fade-in gradient-bg-2">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                安心！迷わない！「坊っちゃん」が選ばれる理由
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <p class="lead-text">「居酒屋チェーン店」の安心感と「個人店の活気」をイイトコどり！30代のあなたに心地よいひと時を提供します。</p>
+            <div class="value-boxes">
+                <div class="value-box card-3d">
+                    <h3>1. 明朗会計で安心！</h3>
+                    <div class="value-image-placeholder float-animation">
+                        <img src="value-1.jpg" alt="レジと明朗会計のイメージ" loading="lazy">
+                    </div>
+                    <p class="price-big">ドリンク <span style="font-size: 20px;">全品</span> 199円<span style="font-size: 16px; color: #666;">(税込218円)</span></p>
+                    <p>何杯飲んでも気にしない！価格破壊のドリンク均一。お会計で焦る心配はありません。</p>
+                </div>
+                <div class="value-box card-3d">
+                    <h3>2. 迷わない！選びやすい！</h3>
+                    <div class="value-image-placeholder float-animation" style="animation-delay: 0.2s;">
+                        <img src="value-2.jpg" alt="枝豆と飲み放題のドリンク" loading="lazy">
+                    </div>
+                    <p class="price-big">お通し代 330円で</p>
+                    <p class="highlight-text">枝豆食べ放題！</p>
+                    <p>お通しが豪華なサービス！メニュー選びに迷う時間も楽しい！</p>
+                </div>
+                <div class="value-box card-3d">
+                    <h3>3. さく飲みもガッツリも！</h3>
+                    <div class="value-image-placeholder float-animation" style="animation-delay: 0.4s;">
+                        <img src="value-3.jpg" alt="楽しそうな客席の様子" loading="lazy">
+                    </div>
+                    <p class="price-big">平均単価 3,000円以内</p>
+                    <p>サクッと<strong>2件目利用</strong>もOK（2,000円〜）！もちろん、<strong>女性も2,500円〜</strong>で大満足の居酒屋です。</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider"></div>
+    </section>
+
+
+    <!-- Review Section -->
+    <section id="review" class="section review fade-in gradient-bg-1">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                利用シーンとお客様の声
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="review-grid">
+                <div class="review-item card-3d">
+                    <p class="review-tag">#同僚と #サク飲み</p>
+                    <p class="review-body">「均一価格だから、新人にも『好きなだけ飲んでいいぞ！』と言えるのが嬉しい。気にせず飲めて、懐にも優しい居酒屋です。」<span class="review-user">（30代 男性 会社員）</span></p>
+                </div>
+                <div class="review-item card-3d">
+                    <p class="review-tag">#女子会 #コスパ最高</p>
+                    <p class="review-body">「この値段なのに焼き鳥が本格的！枝豆食べ放題で、女子会も盛り上がりました。赤と黒の内装が活気があって良いですね！」<span class="review-user">（30代 女性 OL）</span></p>
+                </div>
+                <div class="review-item card-3d">
+                    <p class="review-tag">#カップル #二軒目利用</p>
+                    <p class="review-body">「二軒目に最適！さくっと飲めるのに料理のクオリティが高いです。お会計を気にせず楽しめるのが嬉しいねと彼と話しています。」<span class="review-user">（20代 女性 会社員）</span></p>
+                </div>
+                <div class="review-item card-3d">
+                    <p class="review-tag">#仕事終わり #一人飲み</p>
+                    <p class="review-body">「均一価格だからこそ、仕事終わりにも立ち寄りやすいです。活気はあるけど安心感があって、一人でも居心地が良いのが気に入っています。」<span class="review-user">（40代 男性 会社員）</span></p>
+                </div>
+                <div class="review-item card-3d">
+                    <p class="review-tag">#ファミリー #早めの時間</p>
+                    <p class="review-body">「子供がいても安心の雰囲気。均一価格だから家族で利用してもお財布に優しくて助かります。焼き鳥も美味しいのでまた利用したいです。」<span class="review-user">（40代 女性 主婦）</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider wave-flip"></div>
+    </section>
+
+    <!-- SNS Section -->
+    <section id="sns" class="section sns-section fade-in gradient-bg-2">
+        <div class="container sns-container">
+            <h2 class="section-title sns-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                SNS関連
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="sns-content-box">
+                <a href="https://www.instagram.com/bocchan_yakitori_official/" target="_blank" rel="noopener noreferrer" class="sns-item card-3d">
+                    <div class="sns-icon insta-icon"></div>
+                    <div class="sns-text-content">
+                        <p class="sns-catch">お得な情報配信中！<br>見てね〜</p>
+                        <p class="sns-account">@bocchan_yakitori_official</p>
+                    </div>
+                </a>
+                <a href="https://www.tiktok.com/@bocchan_yakitori_official" target="_blank" rel="noopener noreferrer" class="sns-item card-3d">
+                    <div class="sns-icon tiktok-icon"></div>
+                    <div class="sns-text-content">
+                        <p class="sns-catch">均一価格の裏側公開中！<br>見てね〜</p>
+                        <p class="sns-account">@bocchan_yakitori_official</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="wave-divider"></div>
+    </section>
+
+    <!-- Stores Section -->
+    <section id="stores" class="section affiliated-stores-section fade-in gradient-bg-1">
+        <div class="container">
+            <h2 class="section-title lantern-title">
+                <span class="lantern lantern-left"></span>
+                系列店のご紹介
+                <span class="lantern lantern-right"></span>
+            </h2>
+            <div class="affiliated-stores-vertical">
+                <div class="store-item-vertical card-3d">
+                    <div class="store-details">
+                        <h3>焼き鳥 おでん 坊っちゃん 堺東店</h3>
+                        <p class="store-address">住所: 〒590-0076 大阪府堺市堺区北瓦町２丁目１−２６ 利休ビル 1-2階</p>
+                    </div>
+                    <p class="store-tel">電話番号: 072-268-5586</p>
+                    
+                    <!-- Googleマップ埋め込み -->
+                    <div class="store-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8445849!2d135.48!3d34.57!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM0JzEyLjAiTiAxMzXCsDI4JzQ4LjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890"
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <a href="https://bocchansakaihigashi.owst.jp" target="_blank" rel="noopener noreferrer" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+                <div class="store-item-vertical card-3d">
+                    <div class="store-details">
+                        <h3>焼き鳥 おでん 坊っちゃん 天満店</h3>
+                        <p class="store-address">住所: 〒530-0033 大阪府大阪市北区池田町８−５</p>
+                    </div>
+                    <p class="store-tel">電話番号: 080-4316-1421</p>
+                    
+                    <!-- Googleマップ埋め込み -->
+                    <div class="store-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8!2d135.51!3d34.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQxJzI0LjAiTiAxMzXCsDMwJzM2LjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890"
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <a href="https://bocchantenma.owst.jp" target="_blank" rel="noopener noreferrer" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+                <div class="store-item-vertical card-3d">
+                    <div class="store-details">
+                        <h3>焼き鳥 おでん 坊っちゃん 梅田茶屋町店</h3>
+                        <p class="store-address">住所: 〒530-0012 大阪府大阪市北区芝田１丁目５−１４</p>
+                    </div>
+                    <p class="store-tel">電話番号: 070-5654-9817</p>
+                    
+                    <!-- Googleマップ埋め込み -->
+                    <div class="store-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.1!2d135.50!3d34.70!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQyJzAwLjAiTiAxMzXCsDMwJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890"
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <a href="https://bocchantyayamachi.owst.jp" target="_blank" rel="noopener noreferrer" class="btn-store-reserve">ご予約はこちらから</a>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <a href="#stores" class="btn-reserve-large">お近くの「坊っちゃん」をいますぐ予約！</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright-info">&copy; yakitori oden bocchan All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="https://double0703.com/" target="_blank" rel="noopener noreferrer">運営会社：株式会社double</a>
+                <span class="separator">|</span>
+                <a href="privacy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed CTA Button -->
+    <a href="#stores" class="fixed-cta-button" aria-label="店舗予約">
+        <img src="daruma-cta.png" alt="予約" class="cta-icon">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
